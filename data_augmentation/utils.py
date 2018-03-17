@@ -164,7 +164,7 @@ def rotate_images_by_angle(X_imgs, start_angle, end_angle, n_images):
             X_rotate.extend(rotated_imgs)
 
     return np.array(X_rotate, dtype=np.float32)
-
+"""
 def flip_images(X_imgs, k):
     X_flip = []
     tf.reset_default_graph()
@@ -180,7 +180,7 @@ def flip_images(X_imgs, k):
 
     with tf.Session() as sess:
         sess.run(tf.global_variables_initializer())
-        for img in X_imgs
+        for img in X_imgs:
+            flipped_imgs = sess.run([tf_im
 
-
-
+"""
